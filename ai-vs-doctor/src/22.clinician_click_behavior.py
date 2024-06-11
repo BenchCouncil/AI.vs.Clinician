@@ -30,7 +30,7 @@ columns = ['INTERACTION_ID', 'CLICKED_ITEM', 'CLICKED_TIME']
 if __name__ == '__main__':
     df = pd.DataFrame(columns=columns, dtype='object')
 
-    df_doctor_diag = pd.read_csv(root + 'datasets\\Doctor_Diagnosis_Treatment.csv',encoding='gbk')
+    df_doctor_diag = pd.read_csv(root + 'datasets\\Clinician_Diagnosis_Treatment.csv',encoding='gbk')
 
     df_syslog = pd.read_csv(root + 'data\\doctor\\sys_log.csv')
     df_syslog = df_syslog[(df_syslog['patient_id'] <= 6000) | (df_syslog['patient_id'] > 20000)]
@@ -100,5 +100,5 @@ if __name__ == '__main__':
                 row_data.append(creat_time)
                 df.loc[len(df)] = row_data
 
-    df.to_csv(root + '\\datasets\\Doctor_Click_Behavior.csv', encoding='gbk', index=False)
+    df.to_csv(root + '\\datasets\\Clinician_Click_Behavior.csv', encoding='gbk', index=False)
 

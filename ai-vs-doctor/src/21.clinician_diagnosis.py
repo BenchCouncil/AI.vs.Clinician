@@ -3,7 +3,7 @@ from src.constant import *
 import ast
 
 
-columns = ['DOCTOR_ID', 'PATIENT_CASE_ID', 'DIAGNOSED_ORDER', 'WITH_MODEL', 'MODEL_INFER_ID', 'MODEL_VISIBILITY', 'STARTTIME','ENDTIME',
+columns = ['Clinician_ID', 'PATIENT_CASE_ID', 'DIAGNOSED_ORDER', 'WITH_MODEL', 'MODEL_INFER_ID', 'MODEL_VISIBILITY', 'STARTTIME','ENDTIME',
            'INTERACTION_ID', 'PRELIM_DIAGNOSIS','PRELIM_TREATMENT', 'PRELIM_TIMESTAMP',
            'FINAL_DIAGNOSIS','FINAL_TREATMENT', 'FINAL_TIMESTAMP','ACTION_TYPE',  'CLINICAL_TIME']
 
@@ -315,4 +315,4 @@ if __name__ == '__main__':
                 diag_modify_count += 1
     print(f'data num is {data_num}')
 
-    df.to_csv(root + '\\datasets\\Doctor_Diagnosis_Treatment.csv', encoding='gbk', index=False)
+    df.to_csv(root + '\\datasets\\Clinician_Diagnosis_Treatment.csv', encoding='gbk', index=False)
