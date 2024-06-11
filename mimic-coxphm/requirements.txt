@@ -1,0 +1,4 @@
+NumPy 1.23.5
+Pandas 2.0.3
+Lifelines 0.27.7
+Scikit-learn 1.2.2

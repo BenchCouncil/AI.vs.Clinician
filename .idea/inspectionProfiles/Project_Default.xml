@@ -1,0 +1,54 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="29">
+            <item index="0" class="java.lang.String" itemvalue="python-iptables" />
+            <item index="1" class="java.lang.String" itemvalue="docker" />
+            <item index="2" class="java.lang.String" itemvalue="Pyro4" />
+            <item index="3" class="java.lang.String" itemvalue="tqdm" />
+            <item index="4" class="java.lang.String" itemvalue="google-cloud-bigquery" />
+            <item index="5" class="java.lang.String" itemvalue="pyarrow" />
+            <item index="6" class="java.lang.String" itemvalue="numba" />
+            <item index="7" class="java.lang.String" itemvalue="google-auth-oauthlib" />
+            <item index="8" class="java.lang.String" itemvalue="torchdiffeq" />
+            <item index="9" class="java.lang.String" itemvalue="h5py" />
+            <item index="10" class="java.lang.String" itemvalue="torch" />
+            <item index="11" class="java.lang.String" itemvalue="numpy" />
+            <item index="12" class="java.lang.String" itemvalue="signatory" />
+            <item index="13" class="java.lang.String" itemvalue="torchvision" />
+            <item index="14" class="java.lang.String" itemvalue="scipy" />
+            <item index="15" class="java.lang.String" itemvalue="joblib" />
+            <item index="16" class="java.lang.String" itemvalue="scikit_learn" />
+            <item index="17" class="java.lang.String" itemvalue="dill" />
+            <item index="18" class="java.lang.String" itemvalue="ray" />
+            <item index="19" class="java.lang.String" itemvalue="requests" />
+            <item index="20" class="java.lang.String" itemvalue="pandas" />
+            <item index="21" class="java.lang.String" itemvalue="lifelines" />
+            <item index="22" class="java.lang.String" itemvalue="iisignature" />
+            <item index="23" class="java.lang.String" itemvalue="seaborn" />
+            <item index="24" class="java.lang.String" itemvalue="gdown" />
+            <item index="25" class="java.lang.String" itemvalue="matplotlib_venn" />
+            <item index="26" class="java.lang.String" itemvalue="matplotlib" />
+            <item index="27" class="java.lang.String" itemvalue="pillow" />
+            <item index="28" class="java.lang.String" itemvalue="lightgbm" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="code.base.kgs.base" />
+          <option value="service.handler" />
+          <option value="set.append" />
+          <option value="int.backward" />
+          <option value="float.backward" />
+          <option value="generator.main_diag_randomdoc_new.doctor_unit_dict" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
