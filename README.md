@@ -1,8 +1,8 @@
-# AI.vs.Doctor, A Freely Accessible Human-AI Interaction Database for AI in Medicine
+# AI.vs.Clinician, A Freely Accessible Human-AI Interaction Database for AI in Medicine
 
-AI.vs.Doctor is a large and human-centered database that comprises information related to the behavior variations of doctors’ diagnosis with or without the assistance of different AI models.
+AI.vs.Clinician is a large and human-centered database that comprises information related to the behavior variations of clinicians’ diagnosis with or without the assistance of different AI models.
 
-The details and steps to use AI.vs.Doctor database are as follows.
+The details and steps to use AI.vs.Clinician database are as follows.
 
 # MIMIC data
 
@@ -49,7 +49,7 @@ See the readme in the section for detailed steps.
 The CoxPHM predictions for the selected sepsis patients mentioned above.
 See the readme in the section for detailed steps.
 
-# 4.ai-vs-doctor
-AI.vs.Doctor, A Freely Accessible Human-AI Interaction Database for AI in Medicine.
+# 4.ai-vs-clinician
+AI.vs.Clinician, A Freely Accessible Human-AI Interaction Database for AI in Medicine.
 See the readme in the section for detailed steps.
 
