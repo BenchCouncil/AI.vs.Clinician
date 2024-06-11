@@ -52,4 +52,3 @@ See the readme in the section for detailed steps.
 # 4.ai-vs-clinician
 AI.vs.Clinician, A Freely Accessible Human-AI Interaction Database for AI in Medicine.
 See the readme in the section for detailed steps.
-
