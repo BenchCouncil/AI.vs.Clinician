@@ -1,21 +1,20 @@
-# AI.vs.Clinician, A Freely Accessible Human-AI Interaction Database for AI in Medicine
+# AI.vs.Clinician: Unveiling Intricate Interactions Between AI and Clinicians through an Open-Access Database
 
 AI.vs.Clinician is a large and human-centered database that comprises information related to the behavior variations of clinicians’ diagnosis with or without the assistance of different AI models.
 
+The database is publicly available from PhysioNet (awaiting approval). This repo contains all the related source code used during the construction of this database.
+
 The details and steps to use AI.vs.Clinician database are as follows.
 
-# MIMIC data
+# Request to Access MIMIC databases and AI.vs.Clinician database
 
-**1.MIMIC Account**
+**1. PhysioNet Account**
 
-First, apply for an account on the MIMIC official website. Then, proceed to take the CITI PROGRAM exam and obtain the exam report. With the exam report in hand, you can apply for database usage permission on the MIMIC official website.
+First, apply for an account on the PhysioNet platform. Then, proceed to take the CITI PROGRAM exam and obtain the exam report. With the exam report in hand, you can apply for database usage permission on the MIMIC official website.
 
-A tutorial can be found below:
-[Tutorial One](https://mp.weixin.qq.com/s/xFzXwqdFT0oPd3ARZJLklQ)
-[Tutorial Two](https://mp.weixin.qq.com/s/9uLHAPko_bg5WWXBZ-H8sA)
+After completing the aforementioned steps, you can download the relevant MIMIC datasets.
 
-**Notice:**  After completing the aforementioned steps, you can download the relevant MIMIC datasets.
-
+**Notice:**  To access AI.vs.Clinician database, one more step is needed: send an access request to the contributors and provide a description of the research project.
 
 **2.MIMIC-III 1.4 Database**
 
@@ -34,7 +33,6 @@ The MIMIC-CXR-JPG database is a collection of chest X-ray images in JPG format, 
 **5.MIMIC-IV-NOTE 2.2 Database**
 
 The MIMIC-IV-Note primarily consists of discharge summaries and imaging text reports for patients in the MIMIC-IV dataset.
-
 
 
 # 1.mimiciv-sample
