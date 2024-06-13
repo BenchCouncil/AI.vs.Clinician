@@ -27,7 +27,7 @@ def del_column(df):
 
 
 if __name__ == '__main__':
-    #先把数据弄成trscore的格式   然后根据D:\4-work\14-mimic-iv\3-sample-select\15-mimiciv_lstm_train_hadm_id.csv 分train val test
+
     df_mimiciv_sample = pd.read_csv(ROOT+'lstm_mimiciv_sample_model_input_data_by_diff_meanvalue.csv')
 
     df_sample_id = pd.read_csv(ROOT+'10-mimiciv_3000_sample.csv',usecols=['start_endtime','group'],encoding='gbk')

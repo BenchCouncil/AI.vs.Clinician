@@ -34,11 +34,6 @@ def get_ethnicity():
                                usecols=['hadm_id', 'dischtime', 'marital_status', 'ethnicity'])
     df_sample = pd.merge(df_sample, df_admission, on=['hadm_id'], how='inner')
 
-    # 先确定sample的婚姻状态 种族的所有值
-    # print(set(df_sample['marital_status']))
-    # print('=============================')
-    # print(set(df_sample['ethnicity']))
-    # 把fillnan为未知
     df_sample['marital_status'] = df_sample['marital_status'].fillna('未知')
     df_sample['ethnicity'] = df_sample['ethnicity'].fillna('未知')
 

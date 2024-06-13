@@ -79,24 +79,6 @@ def temp_crit(x):
         return 0
 
 
-# def build_model(no_feature_cols=None, time_steps=7, output_summary=False):
-#      print("time_steps:{0}|no_feature_cols:{1}".format(time_steps, no_feature_cols))
-#      input_layer = Input(shape=(time_steps, no_feature_cols))
-#      x = Attention(input_layer, time_steps)
-#      x = Masking(mask_value=-4.0, input_shape=(time_steps, no_feature_cols))(x)
-#      x = LSTM(256, return_sequences=False)(x)
-#      # preds = Dense(1, activation="sigmoid")(x)
-#      preds = Dense(1, activation="sigmoid", kernel_regularizer=regularizers.l2(0.01))(x)
-#      model = Model(inputs=input_layer, outputs=preds)
-#
-#      RMS = optimizers.RMSprop(lr=0.00715, rho=0.9, epsilon=1e-08)
-#      model.compile(optimizer=RMS, loss='binary_crossentropy', metrics=['acc'])
-#
-#      if output_summary:
-#          model.summary()
-#      return model
-
-#修改后的模型结果
 def build_model(no_feature_cols=None, time_steps=7, output_summary=False):
        print("time_steps:{0}|no_feature_cols:{1}".format(time_steps, no_feature_cols))
        input_layer = Input(shape=(time_steps, no_feature_cols))
