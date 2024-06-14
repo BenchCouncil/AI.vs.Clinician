@@ -8,7 +8,7 @@
 |4|2_tscore_mimiciv_model_data_not.py|CoxPHM Input data for non-septic patients in MIMIC-IV.|
 |5|3-mimiciv_sample_diff_meanvalue.py|CoxPHM Input data for sample in MIMIC-IV.|
 |6|4-tscore_connect_mimiciii_iv.py|Merge the input data from MIMIC-III and MIMIC-IV.|
-| |mimic-coxphm/2-cph-newfill-final/ |Switch Path.|
+| |cd mimic-coxphm/2-cph-newfill-final/ |Switch Path.|
 |7|cox-train.py|Model training.|
 |8|cox-infer-test.py|Model inference on the test set.|
 |9|cox-infer-4800sample-no12h.py|Model inference on the sample.|
