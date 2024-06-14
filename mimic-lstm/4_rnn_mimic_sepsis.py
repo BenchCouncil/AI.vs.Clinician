@@ -315,7 +315,7 @@ if __name__ == "__main__":
     interval = '3'
     lstm_lary = 1
 
-    ROOT = f'/home/ddcui/hai-med-database/mimic-lstm/data/'
+    ROOT = f'/home/ddcui/hai-med-database/mimic-lstm/data/' #Modify to your current project path
     data_path = ROOT+f'{kind}_del_missdata_{miss_rate}/'
     model_name = f'lstm_{lstm_lary}layer_model_{interval}h_epochs{epochs}_{kind}_del_missdata_{miss_rate}'
     print('Training')
