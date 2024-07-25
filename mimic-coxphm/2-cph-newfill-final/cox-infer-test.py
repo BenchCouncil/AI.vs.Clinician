@@ -21,14 +21,6 @@ PATH = '/home/ddcui/'
 ROOT = f'{PATH}/hai-med-database/mimic-coxphm/data/2-cph-newfill-final/'
 
 df = pd.read_csv('train.csv')
-#df = pd.read_csv('test.csv')
-#df = pd.read_csv('sample.csv')
-#df_sample = pd.read_csv('tscore_model_sample_1200_input_data.csv')
-#df = df_train_all[~df_train_all['hadm_id'].isin(df_sample['hadm_id'])]
-#df.drop(columns=['chronic airway obstruction', 'chronic kidney disease', 'chronic liver disease', 'chronic pulmonary', 'immunodeficiency', 'organ insufficiency', 'rena insufficiency', 'cardiac complaint', 'fall complaint', 'gastrointestinal bleed complaint', 'seizure complaint', 'stroke complain', 'aspartate aminotransferase'], inplace=True)
-#df.drop(columns=['rena insufficiency', 'cardiac complaint', 'fall complaint', 'gastrointestinal bleed complaint', 'seizure complaint', 'stroke complain', 'aspartate aminotransferase'], inplace=True)
-
-#df.drop(columns=['subject_id', 'hadm_id', 'start_time', 'end_time'], inplace=True)
 dfL1 = df.pop('ill_label')
 dfT1 = df.pop('period_end_to_illtime')
 
@@ -135,11 +127,3 @@ with open('cox-cph.pickle', 'rb') as f:
     os.remove("testL-sample.csv")
     os.remove("testF-sample.csv")
     os.remove("testT-sample.csv")
-
-#    plt.plot(fpr, tpr, linewidth=1, color="red", label='AD ROC (AUC = {0:.4f})'.format(roc_auc))
-#    plt.savefig('auc.jpg')
-    #    else:
-     #       continue
-#cph_new.print_summary() # should produce the same output as cph.summary
-
-#print(cph.predict_partial_hazard(df_val))
