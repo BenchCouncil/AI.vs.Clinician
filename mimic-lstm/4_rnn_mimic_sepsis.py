@@ -84,17 +84,14 @@ def build_model(no_feature_cols=None, time_steps=7, output_summary=False):
        input_layer = Input(shape=(time_steps, no_feature_cols))
        x = Attention(input_layer, time_steps)
        x = Masking(mask_value=-4.0)(x)
-       x = LSTM(256, return_sequences=True)(x)
        x = Bidirectional(LSTM(256, return_sequences=True))(x)
 
        x = Dropout(dropout)(x)
        x = BatchNormalization()(x)
-       x = LSTM(128, return_sequences=True)(x)
        x = Bidirectional(LSTM(128, return_sequences=True))(x)
 
        x = Dropout(dropout)(x)
        x = BatchNormalization()(x)
-       x = LSTM(64, return_sequences=False)(x)
        x = Bidirectional(LSTM(64, return_sequences=False))(x)
 
        x = Dropout(dropout)(x)
