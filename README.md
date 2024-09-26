@@ -25,7 +25,7 @@ MIMIC-III is a large-scale clinical intensive care database that is freely avail
 MIMIC-IV is an updated version of MIMIC-III, with data covering the period from 2008 to 2019.
 
 
-**4.MIMIC-CXR-JPG 2.0 Database**
+**4.MIMIC-CXR-JPG 2.0.0 Database**
 
 The MIMIC-CXR-JPG database is a collection of chest X-ray images in JPG format, corresponding to patients in the MIMIC-IV dataset.
 
