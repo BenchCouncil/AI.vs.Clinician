@@ -57,6 +57,7 @@ The MIMIC-IV-Note primarily consists of discharge summaries and imaging text rep
 **（1）Model Training Environment**
 - **RAM:** 62 GB
 - **CPU:** 24 cores
+- **GPU:** Tesla V100-PCIE_32G
 - **Operating System:** Linux
 
 **（2）Analysis Environment**
@@ -64,7 +65,6 @@ The MIMIC-IV-Note primarily consists of discharge summaries and imaging text rep
       ① Linux Environment
       - **RAM:** 62 GB
       - **CPU:** 24 cores
-      - **GPU:** Tesla V100-PCIE_32G
         
       OR
       
