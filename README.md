@@ -100,52 +100,56 @@ Run：
 
 
 ## Development Version
-To install the dependencies and view the README file for each project, execute the following commands in the respective project directories:
+Change the directory, install the dependencies for each part, and refer to the README of each part for the process:
 
-```bash
-cd ./mimiciv-sample
-pip install -r requirements.txt
-refer README.md [链接](https://github.com/BenchCouncil/AI.vs.Clinician/blob/master/mimiciv-sample/README.md)
+(1) `cd ./mimiciv-sample`
+`pip install -r requirements.txt`
+This section refers to the README, which can be accessed via the link. [链接](https://github.com/BenchCouncil/AI.vs.Clinician/blob/master/mimiciv-sample/README.md)
 
-cd ./mimic-coxphm
-pip install -r requirements.txt
-refer README.md [链接](https://github.com/BenchCouncil/AI.vs.Clinician/blob/master/mimic-coxphm/README.md)
+(2) `cd ./mimic-coxphm`
+`pip install -r requirements.txt`
+This section refers to the README, which can be accessed via the link.[链接](https://github.com/BenchCouncil/AI.vs.Clinician/blob/master/mimic-coxphm/README.md)
 
-cd ./mimic-lstm
-pip install -r requirements.txt
-refer README.md [链接](https://github.com/BenchCouncil/AI.vs.Clinician/blob/master/mimic-lstm/README.md)
-```
-
+(3) `cd ./mimic-lstm`
+`pip install -r requirements.txt`
+This section refers to the README, which can be accessed via the link. [链接](https://github.com/BenchCouncil/AI.vs.Clinician/blob/master/mimic-lstm/README.md)
 
 
 # Demo
 
-`cd analysis/`
- `python main_paper2_no3hback.py parameter1_project_path parameter2_analysis_operation`
+(1) Changes the current directory to `analysis`.
+   
+         `cd analysis/`
+   
+ (2) Runs the Python script.
+   
+    `python main_paper2_no3hback.py parameter1_project_path parameter2_analysis_operation`
  
- (1) Analyze the AUC of the clinician's diagnosis.
- `python main_paper2_no3hback.py /path/to/project "auc"`
+    The command to run is as follows:
  
- (2) Analyze the sensitivity of the clinician's diagnosis.
- `python main_paper2_no3hback.py /path/to/project "sensitivity"`
-
- (3) Analyze the specificity of the clinician's diagnosis.
- `python main_paper2_no3hback.py /path/to/project "specificity"`
-
- (4) Analyze the accuracy of the clinician's diagnosis in relation to antibiotic use.
- `python main_paper2_no3hback.py /path/to/project "antacc"`
-
- (5) Analyze the time of the clinician's diagnosis.
- `python main_paper2_no3hback.py /path/to/project "diagtime"`
-
- (6) Analyze the number of revisions to the clinician's diagnosis.
- `python main_paper2_no3hback.py /path/to/project "diag_modify_times"`
- 
- (7) Analyze the number of historical examinations reviewed by the clinician.
- `python main_paper2_no3hback.py /path/to/project "check_hisnum"`
- 
- (8) Analyze the number of current examinations reviewed by the clinician.
- `python main_paper2_no3hback.py /path/to/project "check_nextnum"`
+       (1) Analyze the AUC of the clinician's diagnosis.
+       `python main_paper2_no3hback.py /path/to/project "auc"`
+       
+       (2) Analyze the sensitivity of the clinician's diagnosis.
+       `python main_paper2_no3hback.py /path/to/project "sensitivity"`
+      
+       (3) Analyze the specificity of the clinician's diagnosis.
+       `python main_paper2_no3hback.py /path/to/project "specificity"`
+      
+       (4) Analyze the accuracy of the clinician's diagnosis in relation to antibiotic use.
+       `python main_paper2_no3hback.py /path/to/project "antacc"`
+      
+       (5) Analyze the time of the clinician's diagnosis.
+       `python main_paper2_no3hback.py /path/to/project "diagtime"`
+      
+       (6) Analyze the number of revisions to the clinician's diagnosis.
+       `python main_paper2_no3hback.py /path/to/project "diag_modify_times"`
+       
+       (7) Analyze the number of historical examinations reviewed by the clinician.
+       `python main_paper2_no3hback.py /path/to/project "check_hisnum"`
+       
+       (8) Analyze the number of current examinations reviewed by the clinician.
+       `python main_paper2_no3hback.py /path/to/project "check_nextnum"`
 
 
 
