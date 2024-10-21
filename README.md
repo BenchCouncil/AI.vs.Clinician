@@ -78,6 +78,29 @@ The MIMIC-IV-Note primarily consists of discharge summaries and imaging text rep
 
 
 # Installation Guide
+## Analysis Version
+Navigate to the Analysis Directory：
+`cd analysis/`
+
+Install Required Packages：
+`pip install -r requirements.txt`
+
+Run：
+`python main_paper2_no3hback.py parameter1_project_path parameter2_analysis_operation`
+- **`parameter1_project_path`**
+- **`parameter2_analysis_operation`**
+  - `"auc"`
+  - `"sensitivity"`
+  - `"specificity"`
+  - `"antacc"`
+  - `"diagtime"`
+  - `"diag_modify_times"`
+  - `"check_hisnum"`
+  - `"check_nextnum"`
+
+
+## Development Version
+
 
 
 # Demo
