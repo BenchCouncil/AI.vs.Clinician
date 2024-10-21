@@ -265,7 +265,7 @@ def model_exper5_antacc(diag_flag, dataset, df_sample, doctor_patient_set, df_do
 
     # print(f'数据集规模为{dataset}，在{diag_flag}诊断模型中，{model_sort} 显示情况{is_display} 的平均抗生素使用准确率为 {antac} %')
     print(avg_antuse_acc)
-    # print(antuse_acc_ci)
+    print(antuse_acc_ci)
     return avg_antuse_acc
 
 
@@ -618,7 +618,7 @@ def model_exper12_aver_hisnum(dataset, df_sample, doctor_patient_set, df_patient
     aver_hisnum, aver_nextnum,value_ci_his,value_ci_next = view_check_num(doctor_patient_random, df_syslog_part, df_patient_check_part)
     # print(f'数据集规模为{dataset}，{model_sort} 显示情况{is_display} 的患者被查看检查 历史检查平均 {aver_hisnum} 项,下一步检查平均 {aver_nextnum} 项 ')
     print(aver_hisnum)
-    # print(value_ci_his)
+    print(value_ci_his)
     return aver_hisnum
 
 
