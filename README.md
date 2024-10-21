@@ -150,7 +150,6 @@ Run：
   - `"check_hisnum"`
   - `"check_nextnum"`
 
-The data analysis would require 5 seconds.
 
 # Demo
 
@@ -194,6 +193,7 @@ The data analysis would require 5 seconds.
 
  The output values represent statistical results regarding different AI models, different blinding methods, and classifications of different clinicians (hospital level, gender, age, years of practice, and position).
  
+ The demo running would require 5 seconds.
 
 
 
