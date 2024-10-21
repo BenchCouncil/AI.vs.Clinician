@@ -34,6 +34,10 @@ The MIMIC-CXR-JPG database is a collection of chest X-ray images in JPG format, 
 The MIMIC-IV-Note primarily consists of discharge summaries and imaging text reports for patients in the MIMIC-IV dataset.
 
 
+
+
+# Prerequisite Data Requirements
+
 # 1.mimiciv-sample
 The code repository consists of sepsis patients selected from MIMIC-IV.
 See the readme in the section for detailed steps.
