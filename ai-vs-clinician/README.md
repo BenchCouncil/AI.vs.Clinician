@@ -1,5 +1,9 @@
 **`Objective:`**Restructuring the database into 22 tables. (14 tables for patient information, 5 tables for AI model information, 3 tables for clinician information)
 
+We provide 22 Python scripts to generate the corresponding tables. Each script is named in the format `<No.>_<Table name>.py`. To generate a table, use the following command:
+
+`python <No.>_<Table name>.py`
+
 # Patient Information Tables
 | No. | Table Name | Description |
 | ------- | ------- | ------- |
