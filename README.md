@@ -119,7 +119,7 @@ This section refers to the README, which can be accessed via the link. [链接](
 
 (1) Changes the current directory to `analysis`.
    
-         `cd analysis/`
+   `cd analysis/`
    
  (2) Runs the Python script.
    
@@ -150,6 +150,13 @@ This section refers to the README, which can be accessed via the link. [链接](
        
        (8) Analyze the number of current examinations reviewed by the clinician.
        `python main_paper2_no3hback.py /path/to/project "check_nextnum"`
+
+       
+       
+ (3) Explanation of Output Values.
+
+ The output values represent statistical results regarding different AI models, different blinding methods, and classifications of different clinicians (hospital level, gender, age, years of practice, and position).
+ 
 
 
 
