@@ -101,7 +101,7 @@ Change the directory, install the dependencies for each part, and refer to the R
 
 `pip install -r requirements.txt`
 
-This section refers to the README, which can be accessed via the link. [链接](https://github.com/BenchCouncil/AI.vs.Clinician/blob/master/mimiciv-sample/README.md)
+This section refers to the README, which can be accessed via the link. [Link](https://github.com/BenchCouncil/AI.vs.Clinician/blob/master/mimiciv-sample/README.md)
 
 ### (2) AI model training
 
@@ -111,7 +111,7 @@ This section refers to the README, which can be accessed via the link. [链接](
 
 `pip install -r requirements.txt`
 
-This section refers to the README, which can be accessed via the link. [链接](https://github.com/BenchCouncil/AI.vs.Clinician/blob/master/mimic-lstm/README.md)
+This section refers to the README, which can be accessed via the link. [Link](https://github.com/BenchCouncil/AI.vs.Clinician/blob/master/mimic-lstm/README.md)
 
 **CoxPHM**
 
@@ -119,7 +119,7 @@ This section refers to the README, which can be accessed via the link. [链接](
 
 `pip install -r requirements.txt`
 
-This section refers to the README, which can be accessed via the link.[链接](https://github.com/BenchCouncil/AI.vs.Clinician/blob/master/mimic-coxphm/README.md)
+This section refers to the README, which can be accessed via the link. [Link](https://github.com/BenchCouncil/AI.vs.Clinician/blob/master/mimic-coxphm/README.md)
 
 The patient cohort construction and AI model training would require over 12 hours.
 
@@ -127,7 +127,7 @@ The patient cohort construction and AI model training would require over 12 hour
 
 `cd ./ai-vs-clinician`
 
-This section refers to the README, which can be accessed via the link. [链接](https://github.com/BenchCouncil/AI.vs.Clinician/edit/master/ai-vs-clinician/README.md)
+This section refers to the README, which can be accessed via the link. [Link](https://github.com/BenchCouncil/AI.vs.Clinician/edit/master/ai-vs-clinician/README.md)
 
 ### (4) Analysis 
 
