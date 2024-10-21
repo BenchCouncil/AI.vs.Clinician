@@ -417,7 +417,7 @@ def diag_avg_auc(df_sample,df_doctor_diag_part,flag):
         if best_auc is not None:
             best_auc_list.append(best_auc)
     if len(best_auc_list) == 0:
-        avg_auc = '没有诊断样例 or 诊断样例过少'
+        avg_auc = 'No diagnostic sample'
         auc_ci = None
     else:
         avg_auc = round(sum(best_auc_list)/len(best_auc_list)/100,4) #/100
@@ -531,7 +531,7 @@ def diag_modify_rate(df_doctor_diag_part,flag):
         else:
             modify_list.append(1)
     if len(modify_list) == 0:
-        modify_rate = '没有诊断样例'
+        modify_rate = 'No diagnostic sample'
     else:
         modify_rate = round((sum(modify_list)/len(modify_list))*100,2)
     return modify_rate
@@ -659,7 +659,7 @@ def diag_change_acc(df_sample,df_doctor_diag_part):
                         diag_change_acc_list.append(0)
 
     if len(diag_change_acc_list) == 0:
-        diag_change_avge_acc = '没有诊断样例'
+        diag_change_avge_acc = 'No diagnostic sample'
     else:
         diag_change_avge_acc = round((sum(diag_change_acc_list)/len(diag_change_acc_list))*100, 2)
     return diag_change_avge_acc,sum(diag_change_acc_list)
@@ -726,7 +726,7 @@ def antibio_change_acc(df_sample,df_doctor_diag_part,all_antname_list):
                         antibio_change_acc_list.append(0)
 
     if len(antibio_change_acc_list) == 0:
-        antibio_change_avge_acc = '没有诊断样例'
+        antibio_change_avge_acc = 'No diagnostic sample'
     else:
         antibio_change_avge_acc = round((sum(antibio_change_acc_list) / len(antibio_change_acc_list)) * 100, 2)
     return antibio_change_avge_acc, sum(antibio_change_acc_list)
@@ -749,11 +749,11 @@ def fluid_change(df_doctor_diag_part):
                 change = first_fluid - final_fluid
                 down_fluid_list.append(change)
     if len(up_fluid_list) == 0:
-        aver_up = '没有诊断样例'
+        aver_up = 'No diagnostic sample'
     else:
         aver_up = round(sum(up_fluid_list)/len(up_fluid_list),2)
     if len(down_fluid_list) == 0:
-        aver_down = '没有诊断样例'
+        aver_down = 'No diagnostic sample'
     else:
         aver_down = round(sum(down_fluid_list) / len(down_fluid_list),2)
     return aver_up,aver_down
@@ -781,13 +781,13 @@ def view_check_num(doctor_patient_set_part,df_syslog_part,df_patient_check_part)
         view_his_list.append(view_his)
         view_next_list.append(view_next)
     if len(view_his_list) == 0:
-        avg_his = '没有诊断样例'
+        avg_his = 'No diagnostic sample'
         value_ci_his = None
     else:
         avg_his = round(sum(view_his_list)/len(view_his_list),2)
         value_ci_his = cal_ci(view_his_list)
     if len(view_next_list) == 0:
-        avg_next = '没有诊断样例'
+        avg_next = 'No diagnostic sample'
         value_ci_next =None
     else:
         avg_next = round(sum(view_next_list)/len(view_next_list),2)
