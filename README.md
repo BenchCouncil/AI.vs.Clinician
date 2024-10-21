@@ -40,11 +40,11 @@ The MIMIC-IV-Note primarily consists of discharge summaries and imaging text rep
 
 # Repo Contents
 
-**1. mimic-lstm** This directory contains all the code for the development of AI models based on LSTM.
+**1. mimiciv-sample**  The code repository contains patient data selected from MIMIC-IV for clinical trials.
+ 
+**2. mimic-lstm** This directory contains all the code for the development of AI models based on LSTM.
 
-**2. mimic-coxphm** This directory contains all the code for the development of AI models based on the traditional COX model.
-
-**3. mimiciv-sample**  The code repository contains patient data selected from MIMIC-IV for clinical trials.
+**3. mimic-coxphm** This directory contains all the code for the development of AI models based on the traditional COX model.
 
 **4. ai-vs-clinician**  This directory contains the organization of the procedural data from the trial.
 
@@ -88,21 +88,29 @@ The package requires a server for AI model training and a standard computer for 
 ## Development 
 Change the directory, install the dependencies for each part, and refer to the README of each part for the process:
 
-(1) `cd ./mimiciv-sample`
+### (1) Construct patient cohort from MIMIC-IV for clinical trials:
+`cd ./mimiciv-sample`
 `pip install -r requirements.txt`
 This section refers to the README, which can be accessed via the link. [链接](https://github.com/BenchCouncil/AI.vs.Clinician/blob/master/mimiciv-sample/README.md)
 
-(2) `cd ./mimic-coxphm`
+### (2) AI model training
+**CoxPHM**
+`cd ./mimic-coxphm`
 `pip install -r requirements.txt`
 This section refers to the README, which can be accessed via the link.[链接](https://github.com/BenchCouncil/AI.vs.Clinician/blob/master/mimic-coxphm/README.md)
 
-(3) `cd ./mimic-lstm`
+**LSTM**
+`cd ./mimic-lstm`
 `pip install -r requirements.txt`
 This section refers to the README, which can be accessed via the link. [链接](https://github.com/BenchCouncil/AI.vs.Clinician/blob/master/mimic-lstm/README.md)
 
-which should successfully run for more than 12 hours. 
+The patient cohort construction and AI model training would require over 12 hours.
 
-## Analysis 
+### (3) Organization of the procedural data from the trial
+`cd ./ai-vs-clinician`
+This section refers to the README, which can be accessed via the link. [链接](https://github.com/BenchCouncil/AI.vs.Clinician/edit/master/ai-vs-clinician/README.md)
+
+### (4) Analysis 
 Navigate to the Analysis Directory：
 `cd analysis/`
 
