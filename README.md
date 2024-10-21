@@ -100,6 +100,21 @@ Run：
 
 
 ## Development Version
+To install the dependencies and view the README file for each project, execute the following commands in the respective project directories:
+
+```bash
+cd ./mimiciv-sample
+pip install -r requirements.txt
+refer README.md [链接](https://github.com/BenchCouncil/AI.vs.Clinician/blob/master/mimiciv-sample/README.md)
+
+cd ./mimic-coxphm
+pip install -r requirements.txt
+refer README.md [链接](https://github.com/BenchCouncil/AI.vs.Clinician/blob/master/mimic-coxphm/README.md)
+
+cd ./mimic-lstm
+pip install -r requirements.txt
+refer README.md [链接](https://github.com/BenchCouncil/AI.vs.Clinician/blob/master/mimic-lstm/README.md)
+```
 
 
 
