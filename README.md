@@ -7,7 +7,7 @@ Since December 2022, we have been conducting an AI-based clinical trial on the d
 
 Our work involves publicly available data provided by the MIMIC database; therefore, users must first obtain the appropriate access and usage permissions from the relevant parties of the MIMIC database.
 
-**1. PhysioNet Account [link](https://physionet.org/)**
+**1. PhysioNet Account [Link](https://physionet.org/)**
 
 First, apply for an account on the PhysioNet platform. Then, proceed to take the CITI PROGRAM exam and obtain the exam report. With the exam report in hand, you can apply for database usage permission on the MIMIC official website.
 
@@ -15,11 +15,11 @@ After completing the aforementioned steps, you can download the relevant MIMIC d
 
 **Notice:**  To access AI.vs.Clinician database [AI.vs.Clinician Database](https://www.benchcouncil.org/ai.vs.clinician/), one more step is needed: send an access request to the contributors and provide a description of the research project.
 
-**2.MIMIC-III 1.4 Database**
+**2.MIMIC-III 1.4 Database [Link](https://physionet.org/content/mimiciii/1.4/)**
 
 MIMIC-III is a large-scale clinical intensive care database that is freely available and openly shared. The data covers the period from 2001 to 2012.
 
-**3.MIMIC-IV 2.2 Database**
+**3.MIMIC-IV 2.2 Database [Link](https://physionet.org/content/mimiciv/2.2/)**
 
 MIMIC-IV is an updated version of MIMIC-III, with data covering the period from 2008 to 2019.
 
