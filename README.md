@@ -36,7 +36,7 @@ The MIMIC-IV-Note primarily consists of discharge summaries and imaging text rep
 
 
 
-# Prerequisite Data Requirements
+# Repo Contents
 
 # 1.mimiciv-sample
 The code repository consists of sepsis patients selected from MIMIC-IV.
