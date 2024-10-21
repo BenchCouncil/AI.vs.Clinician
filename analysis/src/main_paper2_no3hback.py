@@ -2,17 +2,18 @@ import sys
 
 path = sys.argv[0]
 operation = sys.argv[1]
+# path = 'D:\\4-work\\14-mimic-iv\\9-系统日志\\log_analyse_demo\\'
+# operation = 'auc'
 
 #-*- coding: utf-8 -*-
 sys.path.append(path) #Modify to project path
 from src.experiment import *
 
 
-
 if __name__ == '__main__':
 
 
-    root = path+'/dataset_demo/'
+    root = path+'\\dataset_demo\\'
 
     df_syslog = pd.read_csv(root + 'sys_log.csv', encoding='gbk')
 
@@ -86,15 +87,28 @@ if __name__ == '__main__':
             # for flag in ['first', 'final']:
             for flag in ['final']:
 
-                print(f'--------{flag}--{model_str}---------------')
-                for doc_pat_temp in [
-                                     doctor_patient_model,
-                                     sepsis_doctor_patient_set, notsepsis_doctor_patient_set, #计算抗生素的时候这里只留下脓毒症患者
-                                     doctor_patient_set_gender1, doctor_patient_set_gender0,
-                                     doctor_patient_set_age30, doctor_patient_set_age40, doctor_patient_set_age50,doctor_patient_set_age60,
-                                     doctor_patient_set_year5, doctor_patient_set_year10, doctor_patient_set_year15,doctor_patient_set_year20, doctor_patient_set_year25,
-                                     doctor_patient_set_level1, doctor_patient_set_level2, doctor_patient_set_level3,doctor_patient_set_level4]:
-
+                print(f'----------{model_str}---------------')
+                for (doc_pat_temp,log_str) in [
+                    (doctor_patient_model, 'all_clinician on all patient'),
+                    (sepsis_doctor_patient_set, 'all_clinician on sepsis patient'),  # 仅包括脓毒症患者
+                    (notsepsis_doctor_patient_set, 'all_clinician on not_sepsis patient'),
+                    (doctor_patient_set_gender1, 'clinician_gender_male'),
+                    (doctor_patient_set_gender0, 'clinician_gender_female'),
+                    (df_sec,'clinician_hospital_level_2'), (df_thir,'clinician_hospital_level_3'), (df_univ,'clinician_hospital_level_1'),
+                    (doctor_patient_set_age30, 'clinician_age_30'),
+                    (doctor_patient_set_age40, 'clinician_age_40'),
+                    (doctor_patient_set_age50, 'clinician_age_50'),
+                    (doctor_patient_set_age60, 'clinician_age_60'),
+                    (doctor_patient_set_year5, 'clinician_years_of_practice_<5'),
+                    (doctor_patient_set_year10, 'clinician_years_of_practice_5-10'),
+                    (doctor_patient_set_year15, 'clinician_years_of_practice_10-15'),
+                    (doctor_patient_set_year20, 'clinician_years_of_practice_15-20'),
+                    (doctor_patient_set_year25, 'clinician_years_of_practice_>25'),
+                    (doctor_patient_set_level1, 'clinician_position_1'),
+                    (doctor_patient_set_level2, 'clinician_position_2'),
+                    (doctor_patient_set_level3, 'clinician_position_3'),
+                    (doctor_patient_set_level4, 'clinician_position_4')]:
+                            print(f'{log_str}:')
                             # auc
                             if operation == 'auc':
                                 model_exper7_auc(flag, dataset, df_sample, doc_pat_temp, df_doctor_diag,  '', '')
