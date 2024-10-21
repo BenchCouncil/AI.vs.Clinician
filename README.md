@@ -74,7 +74,8 @@ The package requires a server for AI model training and a standard computer for 
       ① Linux Environment
       - **RAM:** 62 GB
       - **CPU:** 24 cores
-        
+      - **Operating System:** Linux Ubutu 16.04.7 LTS
+
       AND
       
       ② Windows Environment
