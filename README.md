@@ -116,6 +116,7 @@ This section refers to the README, which can be accessed via the link.[链接](h
 `pip install -r requirements.txt`
 This section refers to the README, which can be accessed via the link. [链接](https://github.com/BenchCouncil/AI.vs.Clinician/blob/master/mimic-lstm/README.md)
 
+which should successfully run for more than 12 hours. 
 
 # Demo
 
