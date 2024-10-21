@@ -46,4 +46,52 @@ The MIMIC-IV-Note primarily consists of discharge summaries and imaging text rep
 
 **4. ai-vs-clinician**  This directory contains the organization of the procedural data from the trial.
 
-**4. analysis**  This directory contains part of the analysis data and code of the paper "Assisting Clinicians With AI Systems for Early Sepsis Warning: A Prospective, Multi-Site, Mixed-Blind, Multi-Arm, Randomized, Multi-Controlled Trial".
+**5. analysis**  This directory contains part of the analysis data and code of the paper "Assisting Clinicians With AI Systems for Early Sepsis Warning: A Prospective, Multi-Site, Mixed-Blind, Multi-Arm, Randomized, Multi-Controlled Trial".
+
+
+
+# System Requirements
+
+**Hardware Requirements**
+
+
+**Software Requirements**
+
+
+# Installation Guide
+
+
+# Demo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
