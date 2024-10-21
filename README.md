@@ -195,7 +195,7 @@ Run：
 
  The output values represent statistical results regarding different AI models, different blinding methods, and classifications of different clinicians (hospital level, gender, age, years of practice, and position).
 
- **Demo output exacmple**
+ **Demo output example**
  
  ![Demo output example](https://github.com/BenchCouncil/AI.vs.Clinician/blob/master/demo-output-example.jpg)
 
