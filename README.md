@@ -1,4 +1,4 @@
-# AI.vs.Clinician: Unveiling Intricate Interactions Between AI and Clinicians through an Open-Access Database (The dataset supports the findings presented in our paper "Assisting Clinicians With AI Systems for Early Sepsis Warning: A Prospective, Multi-Site, Mixed-Blind, Multi-Arm, Randomized,Multi-Controlled Trial")
+# AI vs. Clinician: Unveiling the Intricate Interactions Between AI and Clinicians Through a Prospective, Multi-Site, Mixed-Blind, Multi-Arm, Randomized, and Controlled Trial for Early Sepsis Warning.
 
 AI.vs.Clinician is a large and human-centered database that comprises information related to the behavior variations of clinicians’ diagnosis with or without the assistance of different AI models.
 
