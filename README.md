@@ -63,32 +63,32 @@ The MIMIC-IV-Note primarily consists of discharge summaries and imaging text rep
 
 # Demo
 
-`cd analysis/
- python main_paper2_no3hback.py parameter1_project_path parameter2_analysis_operation
+`cd analysis/`
+ `python main_paper2_no3hback.py parameter1_project_path parameter2_analysis_operation`
  #Analyze the AUC of the clinician's diagnosis.
- python main_paper2_no3hback.py /path/to/project "auc"
+ `python main_paper2_no3hback.py /path/to/project "auc"`
  
  #Analyze the sensitivity of the clinician's diagnosis.
- python main_paper2_no3hback.py /path/to/project "sensitivity"
+ `python main_paper2_no3hback.py /path/to/project "sensitivity"`
 
  #Analyze the specificity of the clinician's diagnosis.
- python main_paper2_no3hback.py /path/to/project "specificity"
+ `python main_paper2_no3hback.py /path/to/project "specificity"`
 
  #Analyze the accuracy of the clinician's diagnosis in relation to antibiotic use.
- python main_paper2_no3hback.py /path/to/project "antacc"
+ `python main_paper2_no3hback.py /path/to/project "antacc"`
 
  #Analyze the time of the clinician's diagnosis.
- python main_paper2_no3hback.py /path/to/project "diagtime"
+ `python main_paper2_no3hback.py /path/to/project "diagtime"`
 
  #Analyze the number of revisions to the clinician's diagnosis.
- python main_paper2_no3hback.py /path/to/project "diag_modify_times"
+ `python main_paper2_no3hback.py /path/to/project "diag_modify_times"`
  
  #Analyze the number of historical examinations reviewed by the clinician.
- python main_paper2_no3hback.py /path/to/project "check_hisnum"
+ `python main_paper2_no3hback.py /path/to/project "check_hisnum"`
  
  #Analyze the number of current examinations reviewed by the clinician.
- python main_paper2_no3hback.py /path/to/project "check_nextnum"
-`
+ `python main_paper2_no3hback.py /path/to/project "check_nextnum"`
+
 
 
 
