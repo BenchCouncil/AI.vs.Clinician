@@ -147,7 +147,7 @@ Run：
   - `"check_hisnum"`
   - `"check_nextnum"`
 
-which should successfully run within 5 seconds.
+The data analysis would require 5 seconds.
 
 # Demo
 
