@@ -121,6 +121,8 @@ This section refers to the README, which can be accessed via the link. [Link](ht
 
 This section refers to the README, which can be accessed via the link. [Link](https://github.com/BenchCouncil/AI.vs.Clinician/blob/master/mimic-coxphm/README.md)
 
+The total time for installation of requirements.txt is within 2 hours.
+
 The patient cohort construction and AI model training would require over 12 hours.
 
 ### (3) Organization of the procedural data from the trial
