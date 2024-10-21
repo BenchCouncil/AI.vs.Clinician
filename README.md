@@ -131,28 +131,28 @@ which should successfully run for more than 12 hours.
  
     The command to run is as follows:
  
-       (1) Analyze the AUC of the clinician's diagnosis.
+       (1) Analyze the AUC and CI of the clinician's diagnosis.
        `python main_paper2_no3hback.py /path/to/project "auc"`
        
-       (2) Analyze the sensitivity of the clinician's diagnosis.
+       (2) Analyze the sensitivity and CI of the clinician's diagnosis.
        `python main_paper2_no3hback.py /path/to/project "sensitivity"`
       
-       (3) Analyze the specificity of the clinician's diagnosis.
+       (3) Analyze the specificity and CI of the clinician's diagnosis.
        `python main_paper2_no3hback.py /path/to/project "specificity"`
       
-       (4) Analyze the accuracy of the clinician's diagnosis in relation to antibiotic use.
+       (4) Analyze the accuracy and CI of the clinician's diagnosis in relation to antibiotic use.
        `python main_paper2_no3hback.py /path/to/project "antacc"`
       
-       (5) Analyze the time of the clinician's diagnosis.
+       (5) Analyze the time and CI of the clinician's diagnosis.
        `python main_paper2_no3hback.py /path/to/project "diagtime"`
       
-       (6) Analyze the number of revisions to the clinician's diagnosis.
+       (6) Analyze the number of revisions and CI to the clinician's diagnosis.
        `python main_paper2_no3hback.py /path/to/project "diag_modify_times"`
        
-       (7) Analyze the number of historical examinations reviewed by the clinician.
+       (7) Analyze the number of historical examinations and CI reviewed by the clinician.
        `python main_paper2_no3hback.py /path/to/project "check_hisnum"`
        
-       (8) Analyze the number of current examinations reviewed by the clinician.
+       (8) Analyze the number of current examinations and CI reviewed by the clinician.
        `python main_paper2_no3hback.py /path/to/project "check_nextnum"`
 
        
