@@ -2,7 +2,7 @@
 
 Since December 2022, we have been conducting an AI-based clinical trial on the diagnosis and treatment of sepsis across 14 medical centers, with a trial period of 18 months. The study involves 7,500 diagnostic procedures performed by 125 clinicians. To ensure transparency in the trial, we have recorded all actions of the clinicians and compiled them into the dataset "AI vs. Clinician". "AI vs. Clinician" is a large and human-centered database that comprises information related to the behavior variations of clinicians’ diagnosis with or without the assistance of different AI models. Furthermore, we conducted an in-depth analysis of the trial results to reveal the real-world situation of AI-based medical devices in clinical practice, as presented in our paper “Assisting Clinicians With AI Systems for Early Sepsis Warning: A Prospective, Multi-Site, Mixed-Blind, Multi-Arm, Randomized, Multi-Controlled Trial”.
 
-# Table of Contents
+# Contents
 - [Prerequisite Data Requirements](#prerequisite-data-requirements)
 - [Repo Contents](#repo-contents)
 - [System Requirements](#system-requirements)
