@@ -38,6 +38,11 @@ The MIMIC-IV-Note primarily consists of discharge summaries and imaging text rep
 
 # Repo Contents
 
+**1. mimic-lstm**
+**2. mimic-coxphm**
+**3. mimiciv-sample**  The code repository contains patient data selected from MIMIC-IV for clinical trials.
+**4. ai-vs-clinician**
+
 # 1.mimiciv-sample
 The code repository consists of sepsis patients selected from MIMIC-IV.
 See the readme in the section for detailed steps.
