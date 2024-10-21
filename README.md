@@ -38,23 +38,12 @@ The MIMIC-IV-Note primarily consists of discharge summaries and imaging text rep
 
 # Repo Contents
 
-**1. mimic-lstm**
-**2. mimic-coxphm**
+**1. mimic-lstm** This directory contains all the code for the development of AI models based on LSTM.
+
+**2. mimic-coxphm** This directory contains all the code for the development of AI models based on the traditional COX model.
+
 **3. mimiciv-sample**  The code repository contains patient data selected from MIMIC-IV for clinical trials.
-**4. ai-vs-clinician**
 
-# 1.mimiciv-sample
-The code repository consists of sepsis patients selected from MIMIC-IV.
-See the readme in the section for detailed steps.
+**4. ai-vs-clinician**  This directory contains the organization of the procedural data from the trial.
 
-# 2.mimic-lstm
-The LSTM predictions for the selected sepsis patients mentioned above.
-See the readme in the section for detailed steps.
-
-# 3.mimic-coxphm
-The CoxPHM predictions for the selected sepsis patients mentioned above.
-See the readme in the section for detailed steps.
-
-# 4.ai-vs-clinician
-AI.vs.Clinician, A Freely Accessible Human-AI Interaction Database for AI in Medicine.
-See the readme in the section for detailed steps.
+**4. analysis**  This directory contains part of the analysis data and code of the paper "Assisting Clinicians With AI Systems for Early Sepsis Warning: A Prospective, Multi-Site, Mixed-Blind, Multi-Arm, Randomized, Multi-Controlled Trial".
