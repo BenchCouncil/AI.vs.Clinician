@@ -58,7 +58,7 @@ The MIMIC-IV-Note primarily consists of discharge summaries and imaging text rep
 - **RAM:** 62 GB
 - **CPU:** 24 cores
 - **GPU:** Tesla V100-PCIE-32G
-- **Operating System:** Linux
+- **Operating System:** Linux Ubutu 16.04.7 LTS
 
 **（2）Analysis Environment**
 
@@ -70,7 +70,8 @@ The MIMIC-IV-Note primarily consists of discharge summaries and imaging text rep
       
       ② Windows Environment
       - **RAM:** 16.0 GB
-      - **Operating System:** Windows 10
+      - **CPU:**  Intel(R) Core(TM) i7-10510U CPU @ 1.80GHz   2.30 GHz
+      - **Operating System:** Windows 10 Home Chinese Version
 
 
 **Software Requirements**
