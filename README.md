@@ -56,7 +56,7 @@ The MIMIC-IV-Note primarily consists of discharge summaries and imaging text rep
 
 **Hardware Requirements**
 
-The package requires a server with enough RAM for AI model training and a standard computer for analysis. The package has been tested on the following systems:
+The package requires a server for AI model training and a standard computer for analysis. The package has been tested on the following systems:
 
 **（1）Model Training Environment**
 - **RAM:** 62 GB
@@ -84,7 +84,25 @@ The package requires a server with enough RAM for AI model training and a standa
 
 
 # Installation Guide
-## Analysis Version
+
+## Development 
+Change the directory, install the dependencies for each part, and refer to the README of each part for the process:
+
+(1) `cd ./mimiciv-sample`
+`pip install -r requirements.txt`
+This section refers to the README, which can be accessed via the link. [链接](https://github.com/BenchCouncil/AI.vs.Clinician/blob/master/mimiciv-sample/README.md)
+
+(2) `cd ./mimic-coxphm`
+`pip install -r requirements.txt`
+This section refers to the README, which can be accessed via the link.[链接](https://github.com/BenchCouncil/AI.vs.Clinician/blob/master/mimic-coxphm/README.md)
+
+(3) `cd ./mimic-lstm`
+`pip install -r requirements.txt`
+This section refers to the README, which can be accessed via the link. [链接](https://github.com/BenchCouncil/AI.vs.Clinician/blob/master/mimic-lstm/README.md)
+
+which should successfully run for more than 12 hours. 
+
+## Analysis 
 Navigate to the Analysis Directory：
 `cd analysis/`
 
@@ -105,23 +123,6 @@ Run：
   - `"check_nextnum"`
 
 which should successfully run within 5 seconds.
-
-## Development Version
-Change the directory, install the dependencies for each part, and refer to the README of each part for the process:
-
-(1) `cd ./mimiciv-sample`
-`pip install -r requirements.txt`
-This section refers to the README, which can be accessed via the link. [链接](https://github.com/BenchCouncil/AI.vs.Clinician/blob/master/mimiciv-sample/README.md)
-
-(2) `cd ./mimic-coxphm`
-`pip install -r requirements.txt`
-This section refers to the README, which can be accessed via the link.[链接](https://github.com/BenchCouncil/AI.vs.Clinician/blob/master/mimic-coxphm/README.md)
-
-(3) `cd ./mimic-lstm`
-`pip install -r requirements.txt`
-This section refers to the README, which can be accessed via the link. [链接](https://github.com/BenchCouncil/AI.vs.Clinician/blob/master/mimic-lstm/README.md)
-
-which should successfully run for more than 12 hours. 
 
 # Demo
 
