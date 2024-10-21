@@ -52,7 +52,7 @@ The MIMIC-IV-Note primarily consists of discharge summaries and imaging text rep
 
 # System Requirements
 
-**Hardware Requirements**
+*Hardware Requirements*
 
 ## Model Training Environment
 - **RAM:** 62 GB
