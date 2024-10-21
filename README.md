@@ -54,20 +54,20 @@ The MIMIC-IV-Note primarily consists of discharge summaries and imaging text rep
 
 **Hardware Requirements**
 
-**Model Training Environment**
+**（1）Model Training Environment**
 - **RAM:** 62 GB
 - **CPU:** 24 cores
 - **Operating System:** Linux
 
-**Analysis Environment**
+**（2）Analysis Environment**
 
-Linux Environment
+① Linux Environment
 - **RAM:** 62 GB
 - **CPU:** 24 cores
   
 OR
 
-Windows Environment
+② Windows Environment
 - **RAM:** 16.0 GB
 - **Operating System:** Windows 10
 
