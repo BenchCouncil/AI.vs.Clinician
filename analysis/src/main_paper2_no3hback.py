@@ -15,7 +15,7 @@ if __name__ == '__main__':
 
     df_doctor_diag = pd.read_csv(root+'doctor_diag.csv', encoding='gbk')
 
-    df_sample = pd.read_csv(root+'样例数据.csv',encoding='gbk')
+    df_sample = pd.read_csv(root+'data.csv',encoding='gbk')
 
     df_sample = df_sample[df_sample['TIME_RANGE'] != '-3h']
     df_sample_have_illtime = df_sample[df_sample['ILL_TIME'].notna()]
