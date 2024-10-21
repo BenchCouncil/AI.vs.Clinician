@@ -1,13 +1,18 @@
-#-*- coding: utf-8 -*-
 import sys
-sys.path.append('/home/ddcui/log_analyse_demo') #Modify to project path
+
+path = sys.argv[0]
+operation = sys.argv[1]
+
+#-*- coding: utf-8 -*-
+sys.path.append(path) #Modify to project path
 from src.experiment import *
 
 
 
 if __name__ == '__main__':
 
-    root = 'D:\\4-work\\14-mimic-iv\\9-系统日志\\log_analyse_demo\\dataset_demo\\'#Modify to project path
+
+    root = path+'/dataset_demo/'
 
     df_syslog = pd.read_csv(root + 'sys_log.csv', encoding='gbk')
 
@@ -91,26 +96,34 @@ if __name__ == '__main__':
                                      doctor_patient_set_level1, doctor_patient_set_level2, doctor_patient_set_level3,doctor_patient_set_level4]:
 
                             # auc
-                            model_exper7_auc(flag, dataset, df_sample, doc_pat_temp, df_doctor_diag,  '', '')
+                            if operation == 'auc':
+                                model_exper7_auc(flag, dataset, df_sample, doc_pat_temp, df_doctor_diag,  '', '')
 
                             # 灵敏度
-                            # model_exper1(flag, dataset, df_sample_have_illtime, doc_pat_temp, df_doctor_diag, '', '')
+                            if operation == 'sensitivity':
+                                model_exper1(flag, dataset, df_sample_have_illtime, doc_pat_temp, df_doctor_diag, '', '')
 
                             # # 特异度
-                            # model_exper1(flag, dataset, df_sample_no_illtime, doc_pat_temp, df_doctor_diag, '', '')
+                            if operation == 'specificity':
+                                model_exper1(flag, dataset, df_sample_no_illtime, doc_pat_temp, df_doctor_diag, '', '')
 
                             # # 抗生素使用正确率  只是留sepsis患者 要注释代码 修改上述注释的两个地方
-                            # model_exper5_antacc(flag, dataset, df_sample, doc_pat_temp, df_doctor_diag, ant_name_list, '', '')
+                            if operation == 'antacc':
+                                model_exper5_antacc(flag, dataset, df_sample, doc_pat_temp, df_doctor_diag, ant_name_list, '', '')
 
                             #诊断时间
-                            # model_exper2(flag, dataset, df_sample, doc_pat_temp, df_doctor_diag, df_syslog, '', '')
+                            if operation == 'diagtime':
+                                model_exper2(flag, dataset, df_sample, doc_pat_temp, df_doctor_diag, df_syslog, '', '')
 
                             #诊断修改次数
-                            # model_exper3(flag,dataset, df_sample, doc_pat_temp, df_doctor_diag,'', '')
+                            if operation == 'diag_modify_times':
+                                model_exper3(flag,dataset, df_sample, doc_pat_temp, df_doctor_diag,'', '')
 
                             #被查看的检查数量  初步
-                            # model_exper12_aver_hisnum(dataset, df_sample, doc_pat_temp, df_patient_check, df_syslog, '', '')
+                            if operation == 'check_hisnum':
+                                model_exper12_aver_hisnum(dataset, df_sample, doc_pat_temp, df_patient_check, df_syslog, '', '')
 
                             #被查看的检查数量  最终
-                            # model_exper12_aver_nextnum(dataset, df_sample, doc_pat_temp, df_patient_check, df_syslog, '', '')
+                            if operation == 'check_nextnum':
+                                model_exper12_aver_nextnum(dataset, df_sample, doc_pat_temp, df_patient_check, df_syslog, '', '')
 
