@@ -65,6 +65,7 @@ The MIMIC-IV-Note primarily consists of discharge summaries and imaging text rep
 
 `cd analysis/`
  `python main_paper2_no3hback.py parameter1_project_path parameter2_analysis_operation`
+ 
  (1) Analyze the AUC of the clinician's diagnosis.
  `python main_paper2_no3hback.py /path/to/project "auc"`
  
