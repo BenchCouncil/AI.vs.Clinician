@@ -63,7 +63,8 @@ The MIMIC-IV-Note primarily consists of discharge summaries and imaging text rep
 
 # Demo
 
-
+`cd analysis/
+`
 
 
 
