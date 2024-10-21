@@ -61,15 +61,15 @@ The MIMIC-IV-Note primarily consists of discharge summaries and imaging text rep
 
 **（2）Analysis Environment**
 
-① Linux Environment
-- **RAM:** 62 GB
-- **CPU:** 24 cores
-  
-OR
-
-② Windows Environment
-- **RAM:** 16.0 GB
-- **Operating System:** Windows 10
+      ① Linux Environment
+      - **RAM:** 62 GB
+      - **CPU:** 24 cores
+        
+      OR
+      
+      ② Windows Environment
+      - **RAM:** 16.0 GB
+      - **Operating System:** Windows 10
 
 
 **Software Requirements**
