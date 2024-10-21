@@ -4,6 +4,11 @@ Since December 2022, we have been conducting an AI-based clinical trial on the d
 
 # Table of Contents
 - [Prerequisite Data Requirements](#prerequisite-data-requirements)
+- [Repo Contents](#repo-contents)
+- [System Requirements](#system-requirements)
+- [Installation Guide](#installation-guide)
+- [Demo](#demo)
+
 
 # Prerequisite Data Requirements
 
@@ -85,32 +90,44 @@ The package requires a server for AI model training and a standard computer for 
 
 # Installation Guide
 
-## Development 
 Change the directory, install the dependencies for each part, and refer to the README of each part for the process:
 
 ### (1) Construct patient cohort from MIMIC-IV for clinical trials:
+
 `cd ./mimiciv-sample`
+
 `pip install -r requirements.txt`
+
 This section refers to the README, which can be accessed via the link. [链接](https://github.com/BenchCouncil/AI.vs.Clinician/blob/master/mimiciv-sample/README.md)
 
 ### (2) AI model training
-**CoxPHM**
-`cd ./mimic-coxphm`
-`pip install -r requirements.txt`
-This section refers to the README, which can be accessed via the link.[链接](https://github.com/BenchCouncil/AI.vs.Clinician/blob/master/mimic-coxphm/README.md)
 
 **LSTM**
+
 `cd ./mimic-lstm`
+
 `pip install -r requirements.txt`
+
 This section refers to the README, which can be accessed via the link. [链接](https://github.com/BenchCouncil/AI.vs.Clinician/blob/master/mimic-lstm/README.md)
+
+**CoxPHM**
+
+`cd ./mimic-coxphm`
+
+`pip install -r requirements.txt`
+
+This section refers to the README, which can be accessed via the link.[链接](https://github.com/BenchCouncil/AI.vs.Clinician/blob/master/mimic-coxphm/README.md)
 
 The patient cohort construction and AI model training would require over 12 hours.
 
 ### (3) Organization of the procedural data from the trial
+
 `cd ./ai-vs-clinician`
+
 This section refers to the README, which can be accessed via the link. [链接](https://github.com/BenchCouncil/AI.vs.Clinician/edit/master/ai-vs-clinician/README.md)
 
 ### (4) Analysis 
+
 Navigate to the Analysis Directory：
 `cd analysis/`
 
