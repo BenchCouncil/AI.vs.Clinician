@@ -85,8 +85,10 @@ The package requires a server for AI model training and a standard computer for 
 
 
 **Software Requirements**
-- **Python Version:** Python 3.8
-- **Analysis Tools:** Pycharm 2020
+
+ Python 3.8
+ 
+ Pycharm 2020
 
 
 # Installation Guide
