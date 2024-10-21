@@ -98,6 +98,7 @@ Run：
   - `"check_hisnum"`
   - `"check_nextnum"`
 
+which should successfully run within 5 seconds.
 
 ## Development Version
 Change the directory, install the dependencies for each part, and refer to the README of each part for the process:
