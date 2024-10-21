@@ -193,7 +193,7 @@ Run：
 
  The output values represent statistical results regarding different AI models, different blinding methods, and classifications of different clinicians (hospital level, gender, age, years of practice, and position).
  
- The demo running would require 5 seconds.
+ The demo running would require about 2 minutes.
 
 
 
